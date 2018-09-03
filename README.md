@@ -4,12 +4,15 @@
 Taken from https://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
 
 Start the Docker installer
+
 $ curl -sSL https://get.docker.com | sh
 
 Set Docker to auto-start
+
 $ sudo systemctl enable docker
 
-start the Docker daemon with:
+Start the Docker daemon with:
+
 
 $ sudo systemctl start docker
 
