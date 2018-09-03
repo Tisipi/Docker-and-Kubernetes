@@ -1,5 +1,8 @@
 # Docker-and-Kubernetes
-From https://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
+
+## Installation
+Taken from https://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
+
 Start the Docker installer
 $ curl -sSL https://get.docker.com | sh
 
