@@ -19,6 +19,10 @@ Start the Docker daemon with:
 The Docker client can only be used by root or members of the docker group. Add pi or your equivalent user to the docker group:
 
 > $ sudo usermod -aG docker pi
+
+
 > $ docker version
+
+
 > $ docker run hello-world
 
