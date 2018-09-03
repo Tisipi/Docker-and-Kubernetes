@@ -9,19 +9,16 @@ Start the Docker installer
 
 Set Docker to auto-start
 
-$ sudo systemctl enable docker
+> $ sudo systemctl enable docker
 
 Start the Docker daemon with:
 
 
-$ sudo systemctl start docker
+> $ sudo systemctl start docker
 
 The Docker client can only be used by root or members of the docker group. Add pi or your equivalent user to the docker group:
 
-$ sudo usermod -aG docker pi
-
-
-$ docker version
-
-$ docker run hello-world
+> $ sudo usermod -aG docker pi
+> $ docker version
+> $ docker run hello-world
 
