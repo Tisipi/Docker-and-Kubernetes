@@ -29,3 +29,11 @@ The Docker client can only be used by root or members of the docker group. Add p
 > $ docker run busybox echo hello, world
 
 > $ docker run busybox pwd
+
+> $ docker run busybox ping 8.8.8.8
+
+List running containers:
+> $ docker ps
+
+List all containers that have run:
+> $ docker ps --all
