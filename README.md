@@ -32,7 +32,10 @@ The Docker client can only be used by root or members of the docker group. Add p
 
 > $ docker run busybox ping 8.8.8.8
 
+Run BusyBox shell:
+
 > $ docker run -it --rm busybox
+
 
 List running containers:
 > $ docker ps
