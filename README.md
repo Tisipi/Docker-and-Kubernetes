@@ -7,11 +7,11 @@ Start the Docker installer
 
 > $ curl -sSL https://get.docker.com | sh
 
-Set Docker to auto-start
+Set Docker to auto-start:
 
 > $ sudo systemctl enable docker
 
-Start the Docker daemon with:
+Start the Docker daemon:
 
 
 > $ sudo systemctl start docker
@@ -20,9 +20,7 @@ The Docker client can only be used by root or members of the docker group. Add p
 
 > $ sudo usermod -aG docker pi
 
-
 > $ docker version
-
 
 > $ docker run hello-world
 
