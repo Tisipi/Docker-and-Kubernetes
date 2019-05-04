@@ -25,7 +25,10 @@ The Docker client can only be used by root or members of the docker group. Add p
 
 > $ docker run hello-world
 
+
 ## Docker run commands:
+
+Busybox
 > $ docker run busybox echo hello, world
 
 > $ docker run busybox pwd
