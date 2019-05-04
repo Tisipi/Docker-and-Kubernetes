@@ -26,18 +26,23 @@ The Docker client can only be used by root or members of the docker group. Add p
 > $ docker run hello-world
 
 
+
 ## Docker run commands:
 
-Busybox
+Run busybox:
+
 > $ docker run busybox echo hello, world
 
 > $ docker run busybox pwd
 
 > $ docker run busybox ping 8.8.8.8
 
+
+
 Run BusyBox shell:
 
 > $ docker run -it --rm busybox
+
 
 
 List running containers:
@@ -45,3 +50,9 @@ List running containers:
 
 List all containers that have run:
 > $ docker ps --all
+
+
+```
+$ docker create hello-world
+$ docker start -a <container reference>
+```
