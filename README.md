@@ -52,7 +52,17 @@ List all containers that have run:
 > $ docker ps --all
 
 
+Create and start a container:
 ```
 $ docker create hello-world
 $ docker start -a <container reference>
 ```
+
+
+Restart a stopped container:
+$ docker start <container id>
+
+Restart a stopped container; attach to STDOUT/STDERR:
+$ docker start -a <container id>
+
+
