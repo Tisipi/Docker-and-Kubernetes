@@ -60,9 +60,16 @@ $ docker start -a <container reference>
 
 
 Restart a stopped container:
+```
 $ docker start <container id>
+```
 
 Restart a stopped container; attach to STDOUT/STDERR:
+```
 $ docker start -a <container id>
+```
 
-
+Remove stopped containers, docker cache, etc.:
+```
+$ docker system prune
+```
